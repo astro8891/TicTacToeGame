@@ -1,0 +1,41 @@
+#wrapper {
+
+	width: 100%;
+}
+
+.grid {
+
+margin: 175px;
+text-align: center;
+
+}
+
+/*We have rows but they are just place holders, cells are the things visable so get styled*/
+
+.cell {
+
+height: 65px;
+width: 65px;
+border: 2px solid #000;
+display: inline-block;
+margin: 4px;
+
+}
+
+.red {
+
+height: 65px;
+width: 65px;
+border: 2px solid #000;
+background-color: red;
+
+}
+
+.blue {
+
+height: 65px;
+width: 65px;
+border: 2px solid #000;
+background-color: blue;
+
+}
