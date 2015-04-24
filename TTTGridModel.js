@@ -16,7 +16,11 @@ this.cells = [];
 Grid.prototype.GenerateGrid = function() {
 for (var i = 0; i < this.height; i++) {
 	var row = $("<div class = 'row'></div>")
-	$('.Grid').append(row);
+	$('.grid').append(row);
+		for (var j = 0; j < this.width ; j++) {
+			var cell = $("<div class = cell></div>");
+			row.append(cell);                              //watch out here, you didnt need to append row the html element, just the var row
+		};
 
 	}
 };

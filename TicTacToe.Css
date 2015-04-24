@@ -1,6 +1,11 @@
+#wrapper {
+
+	width: 100%;
+}
+
 .grid {
 
-margin: 250px;
+margin: 175px;
 text-align: center;
 
 }
